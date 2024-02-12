@@ -418,6 +418,7 @@ nav ul a li:hover {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2em;
     margin-bottom: 4em;
+    padding: 0 7em;
 }
 
 .services__card {

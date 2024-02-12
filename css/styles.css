@@ -425,7 +425,7 @@ nav ul a li:hover {
     background-color: var(--b2);
     border-radius: 10px;
     display: grid;
-    place-content: center;
+    place-content: start;
 }
 
 .services__card--icon {
@@ -437,11 +437,11 @@ nav ul a li:hover {
     margin: auto;
     text-align: center;
     font-weight: 600;
+    margin: auto 2em;
 }
 
 .services__card--text {
-    margin: 1em 3em 3em;
-    text-align: center;
+    margin: 1em 2em 2em;
     color: var(--c7);
 }
 

@@ -1,0 +1,15 @@
+{
+  "name": "catena.com",
+  "icons": [
+    {
+      "src": "/img/catena_android_app_icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/catena_android_app_icon_large.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

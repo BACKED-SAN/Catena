@@ -492,7 +492,7 @@ nav ul a li:hover {
 }
 
 .team__content--image {
-    width: 23em;
+    width: 100%;
     border-radius: 10px;
 }
 

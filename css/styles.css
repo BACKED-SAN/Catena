@@ -500,6 +500,7 @@ nav ul a li:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2em;
+    margin: auto;
 }
 
 .team__content--text {

@@ -2,12 +2,15 @@
 
 :root {
     --c1: #ECF1F6; 
+    --c2: #E3E8ED;
+    --c3: #D5DADF;
     --c7: #6D7277;
     --c9: #3F4449;
     --c10: #2E3338;
     --c12: #0F1419;
     --b1: #EFF9FF;
     --b2: #DAF1FF;
+    --b4: #90DBFF;
     --b9: #1B5CB2;
     --b10: #1B508D;
     --b11: #163155;
@@ -139,8 +142,13 @@ nav img {
     margin-right: 3em;
 }
 
+.navbar__right{
+    display: flex;
+}
+
 nav ul {
     gap: 1em;
+    place-items: center;
 }
 
 nav, nav ul {
@@ -150,6 +158,8 @@ nav, nav ul {
 nav ul li {
     list-style: none;
     text-align: center;
+    margin: 0 1em;
+    padding: 1em;
 }
 
 nav ul a {
@@ -168,7 +178,7 @@ nav ul a li:hover {
     margin-left: 3em;
     min-width: max-content;
     padding: 1em 2em;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
 }
 
@@ -503,10 +513,10 @@ nav ul a li:hover {
 }
 
 .team__content--text {
-    column-count: 2;
     column-width: 60ch;
     gap: 2em;
     margin: auto;
+    text-align: center;
 }
 
 .cards__card {
@@ -519,8 +529,12 @@ nav ul a li:hover {
     display: grid;
 }
 
+.cards__content--name {
+    text-align: center;
+    margin: 1em 0 0.5em;
+}
+
 .cards__content--text{
-    margin-top: 1em;
     font-size: 0.75rem;
     text-align: center;
 }
@@ -609,11 +623,74 @@ textarea {
 }
 
 .form_button {
-    background-color: var(--b1);
+    background-color: var(--b2);
     color: var(--b11);
     font-size: 1rem;
     padding: 1em 2em;
     margin-top: 2em;
+}
+
+.form_button:hover {
+    background-color: var(--b1);
+    border-radius: 10px;
+    color: var(--b10);
+}
+
+hr {
+    color: var(--b4);
+}
+
+/* --Bloco do Footer-- */
+
+footer {
+    background-color: var(--b9);
+    display: grid;
+    justify-content: center;
+}
+
+.footer__container {
+    justify-content: center;
+    max-width: 1312px;
+    display: flex;
+    gap: 4em;
+    padding: 4em 0;
+}
+
+.footer--text {
+    font-size: 1rem;
+}
+
+.footer__column {
+    color: var(--c1);
+    width: fit-content;
+}
+
+.footer__column > h4 {
+    margin-bottom: 0.5em;
+}
+
+.footer__column--text {
+    display: grid;
+    min-width: fit-content;
+}
+
+.forum__column--small {
+    min-width: max-content;
+}
+
+.footer__column--text > a {
+    text-decoration: none;
+    color: var(--c1);
+}
+
+.footer__column--text > a:hover {
+    color: var(--c3);
+}
+
+.footer__hr {
+    background-color: var(--b11);
+    height: 40px;
+    border: var(--b11) solid 1px;
 }
 
 /* -- Responsividade da Home -- */

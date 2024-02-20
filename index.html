@@ -12,12 +12,13 @@
     <link rel='stylesheet' href='css/styles.css'>
     <meta name='description' content='A Catena é um programa para postos de saúde organizarem estoques, doarem, receberem doações e cooperarem entre si'>
     <link rel='icon' href='catena_favicon.svg' type='image/svg+xml'>
-    <link rel='apple-touch-icon' href='/img/catena_apple_app_icon.png'>
+    <link rel='apple-touch-icon' href='img/catena_apple_app_icon.png'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="preload" as="image" href="img/background_home.jpg">
+    <link rel="preload" as="image" href="img/placeholder.jpg">
 </head>
 
 <body>
@@ -31,23 +32,25 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="navbar__menu">
-                <a href="#">
-                    <li>Redução da Mortalidade Infantil</li>
+            <div class="navbar__right">
+                <ul class="navbar__menu">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Sobre Nós</li>
+                    </a>
+                    <a href="#">
+                        <li>Serviços</li>
+                    </a>
+                    <a href="#">
+                        <li>Galeria</li>
+                    </a>
+                </ul>
+                <a href="#" class="button navbar__contact_button navbar__media_top">
+                    Contate-nos
                 </a>
-                <a href="#">
-                    <li>Combate a Doenças Transmissíveis</li>
-                </a>
-                <a href="#">
-                    <li>Prevenção e Tratamento de Doenças Não Transmissíveis</li>
-                </a>
-                <a href="#">
-                    <li>Melhoria Geral da Saúde</li>
-                </a>
-            </ul>
-            <a href="#" class="button navbar__contact_button navbar__media_top">
-                Contate-nos
-            </a>
+            </div>
             <div class="hl">
             </div>
             <ul class="navbar__hidden_menu navbar__media_bottom">
@@ -114,7 +117,7 @@
                         <img src="img/placeholder.jpg" alt="Vídeo Institucional" class="about__video--embed">
                     </div>
                     <div class="about__text">
-                        <p class="overline">Vídeo Pitch</p>
+                        <p class="overline">Nosso Trabalho</p>
                         <h3 class="about__text--title b11">Um Passo à Frente na Automação da Saúde Mundial</h3>
                         <p class="c9">Suspendisse euismod convallis dolor sodales mollis. Sed condimentum est mauris, vestibulum luctus sem venenatis at. Aenean sit amet pulvinar tellus, ut dignissim quam. Nulla facilisi. In consectetur auctor dignissim. Nunc posuere lectus nec pulvinar facilisis. Aliquam lobortis dui in urna ultricies aliquet. Cras consequat hendrerit sapien, vel sollicitudin massa aliquam quis. Nulla quis nulla in neque ornare efficitur in sed mi. Pellentesque nisi urna, suscipit eget faucibus sit amet, iaculis et tellus.</p>
                     </div>
@@ -123,27 +126,30 @@
             <div class="team_block">
                 <h3 class="team__title b11">Nossa Equipe</h3>
                 <div class="team__content">
+                    <p class="team__content--text c9">Pellentesque blandit bibendum sapien imperdiet accumsan. Vestibulum ornare nisi ipsum, et varius elit eleifend a.</p>
                     <div class="team__content--cards">
                         <div class="cards__card">
                             <div class="cards__content">
                                 <img class="cards__content--image" src="img/placeholder.jpg">
+                                <h4 class="cards__content--name">John Doe</h4>
                                 <p class="cards__content--text">Aenean ac diam et est volutpat pretium.</p>
                             </div>
                         </div>
                         <div class="cards__card">
                             <div class="cards__content">
                                 <img class="cards__content--image" src="img/placeholder.jpg">
+                                <h4 class="cards__content--name">Jane Smith</h4>
                                 <p class="cards__content--text">Aenean ac diam et est volutpat pretium.</p>
                             </div>
                         </div>
                         <div class="cards__card">
                             <div class="cards__content">
                                 <img class="cards__content--image" src="img/placeholder.jpg">
+                                <h4 class="cards__content--name">Richard Roe</h4>
                                 <p class="cards__content--text">Aenean ac diam et est volutpat pretium.</p>
                             </div>
                         </div>
                     </div>
-                    <p class="team__content--text c9">Pellentesque blandit bibendum sapien imperdiet accumsan. Vestibulum ornare nisi ipsum, et varius elit eleifend a. Quisque mauris erat, molestie ut condimentum ac, mollis nec dolor. Sed ornare libero sit amet lorem aliquet, sed ultrices dolor aliquet. Praesent convallis ligula aliquet, aliquet elit sed, tempor enim. Ut ligula orci, dapibus vel mauris sollicitudin, porttitor porta mauris. Suspendisse vestibulum pellentesque lacus, a feugiat lorem suscipit vel. Praesent at nunc nec sapien varius condimentum eu sit amet lectus. Duis vulputate diam a magna gravida convallis. Nulla commodo lobortis magna, porta lacinia sapien convallis et. Aliquam erat volutpat. </p>
                 </div>
             </div>
             <div class="contact_block">
@@ -180,6 +186,42 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            <footer>
+                <div class="footer__container">
+                    <div class="footer__column">
+                        <img src="img/catena_logoalt.svg" alt="Logo da Catena">
+                        <p class="footer__column--text">Donec semper felis nec mattis finibus. Sed turpis eros, faucibus vel tempus id, venenatis in augue. Quisque diam lorem, pellentesque sit amet venenatis sit amet, posuere et purus.</p>
+                    </div>
+                    <div class="footer__column">
+                        <h4>Páginas</h4>
+                        <div class="footer__column--text forum__column--small">
+                            <a href="#">Home</a>
+                            <a href="#">Sobre Nós</a>
+                            <a href="#">Serviços</a>
+                            <a href="#">Galeria</a>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <h4>Serviços</h4>
+                        <div class="footer__column--text forum__column--small">
+                            <a href="#">Instalação do Programa</a>
+                            <a href="#">Manutenção do Hardware</a>
+                            <a href="#">Assistência Técnica</a>
+                            <a href="#">Atendimento ao Cliente</a>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <h4>Contato</h4>
+                        <div class="footer__column--text">
+                            <p>Rua das Laranjeiras, 000 - São Paulo, SP 00000-000</p>
+                            <p>contato@catena.com</p>
+                            <p>0800 000 0000</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="footer__hr"></div>
         </div>
     </div>
     </div>
